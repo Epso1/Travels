@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Travels" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorSecondary">@color/my_light_secondary</item>
+        <item name="colorSurface">@color/my_light_surface</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorError">@color/my_light_error</item>
+        <item name="android:statusBarColor" tools:targetApi="l">#4A8742</item>
+        <item name="android:navigationBarColor" tools:targetApi="o_mr1">#4A8742</item>
+
+
+
+    </style>
+
+    <style name="Theme.Travels" parent="Base.Theme.Travels" />
+</resources>
