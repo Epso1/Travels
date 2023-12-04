@@ -7,6 +7,14 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        />
+
     <!-- RecyclerView para mostrar las imágenes horizontalmente -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
